@@ -26,7 +26,8 @@
   color: #ffffff;
 }
 footer {
-    margin-top: 90px;
+    text-align: center;
+    margin-top: 120px;
     padding: 30px;
 }
 </style>
