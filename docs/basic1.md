@@ -87,7 +87,6 @@ Javascirptは、Netscape Communications社が開発した言語で、手軽に�
 
 <br/>
 
-### プログラミング言語を初めて学ぶ方へ
 
 #### プログラミングを学習するときに気をつけるポイント
 - 全角/半角に注意しよう。
@@ -95,6 +94,14 @@ Javascirptは、Netscape Communications社が開発した言語で、手軽に�
 - エラーのメッセージを見てみよう。（英語なので翻訳してみよう）
 
 <br/>
+
+#### プログラミングを学習する環境
+
+<a href="https://paiza.io/ja" target="_blank">paiza io</a>
+
+<br/>
+
+それでは次の講義から実際にコードを書いていきましょう。
 
 <div class="box mt mb">
   <a class="box_right" href="basic2.html">
