@@ -54,16 +54,16 @@ function greeting(){
     console.log("おはよう")
     console.log("今日も一日頑張ろう！")
 }
-```
 
 // 関数の呼び出し
-```
 greeting()
 greeting()
 greeting()
 ```
 
 このように、関数は、複数の処理をfunctionで１つにまとめる（定義する）ことで、何回も呼び出して使うことができます。
+
+<br/>
 
 関数を定義する時は、好きな関数名をつけることができます。
 

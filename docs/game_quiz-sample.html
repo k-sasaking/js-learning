@@ -1,0 +1,83 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <style type="text/css">
+            body {
+                background-color: #CEF;
+            }
+        </style>   
+    </head>
+    <body>
+        <div class="text-center p-5">
+            <div class="quiz">
+                <h1>クラーククイズ</h1>
+                <img src="img/clark.jpeg" height="320px"/>
+                <div class="question m-5">
+                    <h2>問1</h2>
+                    <p>クラーク博士はどこの国の人？</p>
+                    <div class="answer">
+                        <select id="q1">
+                            <option value="1">イギリス</option>
+                            <option value="2">アメリカ</option>
+                            <option value="3">フランス</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="question m-5">
+                    <h2>問2</h2>
+                    <p>クラーク博士が開講した大学は？（現在の名前）</p>
+                    <div class="answer">
+                        <select id="q2">
+                            <option value="1">東北大学</option>
+                            <option value="2">環太平洋大学</option>
+                            <option value="3">北海道大学</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="question m-5">
+                    <h2>問3</h2>
+                    <p>クラーク博士のフルネームは？</p>
+                    <div class="answer">
+                        <select id="q3">
+                            <option value="1">ポール・スミス・クラーク</option>
+                            <option value="2">アダム・スミス・クラーク</option>
+                            <option value="3">ウィリアム・スミス・クラーク</option>
+                        </select>
+                    </div>
+                </div>
+                <input class="form-control btn btn-primary" type="button" value="結果を見る" onclick="quiz()" />
+            </div>
+            <hr/>
+            <div class="text-center">
+                <p>結果</p>
+                <h2 id="result"></h2>
+            </div>
+        </div>
+    </body>
+    <script>
+    function quiz(){
+        // 変数定義
+        var results = ["残念..全問不正解", "１問正解", "おしい！２問正解" , "全問正解！！"];
+        var answers = ["2","3","3"]
+        var correct_answer = 0
+        // DOMの取得
+        var result = document.getElementById("result");
+        var q1 = document.getElementById("q1").value;
+        var q2 = document.getElementById("q2").value;
+        var q3 = document.getElementById("q3").value;
+        // 正解数計算
+        if (q1 == answers[0])
+            correct_answer++;
+        if (q2 == answers[1])
+            correct_answer++;
+        if (q3 == answers[2])
+            correct_answer++;
+        // 結果をDOM操作で表示
+        result.innerText = results[correct_answer];
+    }
+    </script>
+    </html>

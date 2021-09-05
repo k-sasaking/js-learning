@@ -50,12 +50,13 @@ footer {
 
 近年では、iOS/Androidのアプリの画面やサーバー側のプログラムにも使われたりしている汎用性の高い言語です。
 
+<br/>
+
 ### HTML/CSSとJavascriptの関係
 
 
 <img src="img/html_css_js.jpeg"/>
 
-<br/>
 
 Javascriptは、例えば、ボタンを押したときに動作をしたり、タイマーなどの機能を持たせたり、さまざまな機能をつけることができる便利な言語です。
 
@@ -75,6 +76,25 @@ Javascirptは、Netscape Communications社が開発した言語で、手軽に�
 #### なぜ、名前が似ているの？
 元々は、LiveScriptと言う名前であったが、当時人気だったJavaにあやかりJavascriptと言う名前に変更した。
 
+
+<br/>
+
+### Javascirptを学んだらできること
+
+[占いゲーム](game_fotune-sample.html)
+
+[ジャンケンゲーム](game_janken-sample.html)
+
+<br/>
+
+### プログラミング言語を初めて学ぶ方へ
+
+#### プログラミングを学習するときに気をつけるポイント
+- 全角/半角に注意しよう。
+- スペルミスに注意しよう。
+- エラーのメッセージを見てみよう。（英語なので翻訳してみよう）
+
+<br/>
 
 <div class="box mt mb">
   <a class="box_right" href="basic2.html">
