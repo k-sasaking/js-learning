@@ -42,6 +42,9 @@ footer {
 
 ## 第1章: Javascriptとは
 
+## 解説動画
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wW3x7zS32pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Javascriptとは？
 プログラミング言語の１つです。
