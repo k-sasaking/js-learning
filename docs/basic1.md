@@ -1,4 +1,43 @@
+<style>
+.mb {
+  margin-bottom: 90px;
+}
+.mt {
+  margin-top: 90px;
+}
+.box {
+  position: relative;
+}
+.box .box_left {
+  position: absolute;
+  left: 0;
+}
+.box .box_right {
+  position: absolute;
+  right: 0;
+}
+.btn {
+  padding: 6px 12px;
+  border-radius: 7em;
+  border: solid 1px #ccc;
+}
+.bg-info {
+  background-color: #00a651;
+  color: #ffffff;
+}
+</style>
+
 # Javascript講座 基礎編
+
+<div class="box mb">
+  <a class="box_left" href="basic2.html">
+    <button class="btn bg-info">前の講義へ</button>
+  </a>
+  <a class="box_right" href="basic2.html">
+    <button class="btn bg-info">次の講義へ</button>
+  </a>
+</div>
+
 
 ## 第1章: Javascriptとは
 
@@ -96,5 +135,13 @@ Javascirptは、Netscape Communications社が開発した言語で、手軽に�
 なぜ、名前が似ているの？
 元々は、LiveScriptと言う名前であったが、当時人気だったJavaにあやかりJavascriptと言う名前に変更した。
 
-次の講義へ
+
+<div class="box mt">
+  <a class="box_left" href="basic2.html">
+    <button class="btn bg-info">前の講義へ</button>
+  </a>
+  <a class="box_right" href="basic2.html">
+    <button class="btn bg-info">次の講義へ</button>
+  </a>
+</div>
 
