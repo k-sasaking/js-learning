@@ -25,10 +25,24 @@
   background-color: #00a651;
   color: #ffffff;
 }
+footer {
+    margin-top: 90px;
+    padding: 30px;
+}
 </style>
 
 
 # [Javascript講座 基礎編](basic.html)
+
+<div class="box mb">
+  <a class="box_left" href="basic3.html">
+    <button class="btn bg-info">前の講義へ</button>
+  </a>
+  <a class="box_right" href="basic5.html">
+    <button class="btn bg-info">次の講義へ</button>
+  </a>
+</div>
+
 
 ## 第4章: 型と演算
 
@@ -231,15 +245,6 @@ console.log(/*ここに処理を追加*/)
 37
 ```
 
-<div class="box mb">
-  <a class="box_left" href="basic3.html">
-    <button class="btn bg-info">前の講義へ</button>
-  </a>
-  <a class="box_right" href="basic5.html">
-    <button class="btn bg-info">次の講義へ</button>
-  </a>
-</div>
-
 
 <div class="box mt mb">
   <a class="box_left" href="basic3.html">
@@ -249,3 +254,7 @@ console.log(/*ここに処理を追加*/)
     <button class="btn bg-info">次の講義へ</button>
   </a>
 </div>
+
+<footer>
+    <small>© 2021 k-sasaking.net</small>
+</footer>

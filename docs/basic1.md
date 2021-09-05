@@ -25,6 +25,10 @@
   background-color: #00a651;
   color: #ffffff;
 }
+footer {
+    margin-top: 90px;
+    padding: 30px;
+}
 </style>
 # [Javascript講座 基礎編](basic.html)
 
@@ -77,3 +81,7 @@ Javascirptは、Netscape Communications社が開発した言語で、手軽に�
   </a>
 </div>
 
+
+<footer>
+    <small>© 2021 k-sasaking.net</small>
+</footer>

@@ -25,6 +25,10 @@
   background-color: #00a651;
   color: #ffffff;
 }
+footer {
+    margin-top: 90px;
+    padding: 30px;
+}
 </style>
 
 
@@ -109,3 +113,7 @@ console.log("Hello Javascript5")
     <button class="btn bg-info">次の講義へ</button>
   </a>
 </div>
+
+<footer>
+    <small>© 2021 k-sasaking.net</small>
+</footer>
