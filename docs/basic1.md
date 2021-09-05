@@ -60,6 +60,9 @@ footer {
 
 Javascriptは、例えば、ボタンを押したときに動作をしたり、タイマーなどの機能を持たせたり、さまざまな機能をつけることができる便利な言語です。
 
+<div style="text-align:center;">
+<button class="btn bg-info" onclick="alert('ボタンが押されました！');">ボタンを押す</button>
+</div>
 
 <br/>
 
