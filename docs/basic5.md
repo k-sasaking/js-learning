@@ -328,8 +328,6 @@ var y = -10
 
 ```
 
-④ ③のプログラムのaとcの条件式を１つにまとめなさい。
-
 
 <div class="box mt mb">
   <a class="box_left" href="basic4.html">
