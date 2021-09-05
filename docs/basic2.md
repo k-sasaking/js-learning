@@ -41,6 +41,59 @@
 
 ## 第2章: コンソール表示とコメント
 
+### コンソール表示
+
+以下のコードを実行してみよう。
+
+```
+console.log("Hello Javascript!!")
+```
+
+すると画面に以下のように出力されます。
+
+```
+Hello Javascript!!
+```
+
+このように、文字を出力したい場合は、
+
+```
+console.log("表示したい文字")
+```
+
+を利用します。
+
+<br/>
+
+実務では、エラーが起きたときにメッセージを表示したり、処理の途中経過を実行されているか確認するために出力します。
+
+
+
+
+
+### コメントの表示
+以下のプログラムを実行しましょう。
+
+```
+console.log("Hello Javascript1")
+
+//console.log("Hello Javascript2")
+
+console.log("Hello Javascript3")
+
+/*
+console.log("Hello Javascript4")
+console.log("Hello Javascript5")
+*/
+```
+
+コメントは、以下の２つあります。
+
+- １行のコメント //
+- 複数行のコメント / /
+
+実務では、コードを説明するときや不要になったコードを一時的に読み込ませないようにするときに使用します。
+
 
 <div class="box mt mb">
   <a class="box_left" href="basic1.html">
