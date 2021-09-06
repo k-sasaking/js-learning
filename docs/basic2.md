@@ -46,6 +46,10 @@ footer {
 
 ## 第2章: コンソール表示とコメント
 
+## 解説動画
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wW3x7zS32pQ?start=944" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### コンソール表示
 
 以下のコードを実行してみよう。
