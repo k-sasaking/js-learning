@@ -47,6 +47,10 @@ footer {
 
 ## 第4章: 型と演算
 
+## 解説動画
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wW3x7zS32pQ?start=2864" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 型
 プログラム上、データには型があります。
 

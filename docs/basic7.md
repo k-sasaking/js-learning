@@ -39,6 +39,9 @@ footer {
   <a class="box_left" href="basic6.html">
     <button class="btn bg-info">前の講義へ</button>
   </a>
+  <a class="box_right" href="dom1.html">
+    <button class="btn bg-info">次の講義へ</button>
+  </a>
 </div>
 
 ## 第7章: 関数
@@ -82,7 +85,7 @@ function /*関数名*/ (){
 <br/>
 
 ### 引数
-関数はとても便利で、例えば、消費税の計算をする際、以下のように同じような処理をします。
+関数はとても便利で、例えば、計算をする際、以下のように同じような処理をします。
 
 ```
 var apple = 100
@@ -270,6 +273,9 @@ range(0,10)
 <div class="box mt mb">
   <a class="box_left" href="basic6.html">
     <button class="btn bg-info">前の講義へ</button>
+  </a>
+  <a class="box_right" href="dom1.html">
+    <button class="btn bg-info">次の講義へ</button>
   </a>
 </div>
 

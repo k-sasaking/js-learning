@@ -46,6 +46,9 @@ footer {
 
 ## 第5章: 条件分岐
 
+## 解説動画
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wW3x7zS32pQ?start=4391" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 条件分岐
 
 条件分岐とは、例えば、ジャンケンで「勝ち」「負け」の時にそれぞれ違う処理をするなど、
