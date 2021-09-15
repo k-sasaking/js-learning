@@ -80,7 +80,7 @@ console.dir(document)
 
 「右クリック」 -> 「検証」 -> 「Console」タブ 
 
-<img src="console.png" height="300">
+<img src="img/console.png">
 
 画面の入力箇所に以下のコードを入力してEnterを押しましょう。
 
