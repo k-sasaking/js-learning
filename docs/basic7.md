@@ -46,6 +46,9 @@ footer {
 
 ## 第7章: 関数
 
+## 解説動画
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s0CCJYDQkpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 関数
 関数は、ある処理をまとめる時に使用します。
 
