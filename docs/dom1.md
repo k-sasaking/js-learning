@@ -74,6 +74,22 @@ console.dir(document)
 
 上記のコードで表示されたデータの塊がDOMです。
 
+<br/>
+
+一緒に実行してみましょう。
+
+「右クリック」 -> 「検証」 -> 「Console」タブ 
+
+<img src="console.png" height="300">
+
+画面の入力箇所に以下のコードを入力してEnterを押しましょう。
+
+
+```
+console.dir(document)
+```
+
+
 
 
 DOMは、いくつかの要素が階層上に入り組んで構成されています。
