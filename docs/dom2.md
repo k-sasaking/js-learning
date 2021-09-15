@@ -1,3 +1,48 @@
+<style>
+.mb {
+  margin-bottom: 90px;
+}
+.mt {
+  margin-top: 90px;
+}
+.box {
+  position: relative;
+}
+.box .box_left {
+  position: absolute;
+  left: 0;
+}
+.box .box_right {
+  position: absolute;
+  right: 0;
+}
+.btn {
+  padding: 6px 12px;
+  border-radius: 7em;
+  border: solid 1px #ccc;
+}
+.bg-info {
+  background-color: #00a651;
+  color: #ffffff;
+}
+footer {
+    text-align: center;
+    margin-top: 120px;
+    padding: 30px;
+}
+</style>
+
+# Javascript講座 DOM編
+
+<div class="box mb">
+  <a class="box_left" href="dom1.html">
+    <button class="btn bg-info">前の講義へ</button>
+  </a>
+  <a class="box_right" href="dom3.html">
+    <button class="btn bg-info">次の講義へ</button>
+  </a>
+</div>
+
 # Javascript講座 DOM編
 
 ## 第2章: Webの仕組みとDOM
@@ -9,6 +54,10 @@
 javascriptのコードは一般的には、bodyタグの下に、scriptタグを設けて、コードを書くことができます。
 
 実際に、追加をしてみましょう。
+
+<a href="tmp/dom.html" download="dom.html">
+<button class="btn bg-info">HTMLファイルをダウンロード</button>
+</a>
 
 ```
 <html>
@@ -50,6 +99,8 @@ javascriptのコードは一般的には、bodyタグの下に、scriptタグを
 - consoleタブをクリック
 - hello world!!と3回表示されていたら大丈夫です。
 
+<br/>
+
 ## DOMの取得
 scriptタグ内を以下のように変更しましょう。
 
@@ -60,6 +111,8 @@ console.dir(document)
 ```
 
 実行すると、最初にやったdocumentのモデルが表示されます。
+
+<br/>
 
 ## idのノードを取得
 ここからは、DOMからpタグの情報を取得します。
@@ -140,4 +193,16 @@ p.innerText = "pタグを変更しました。"
 ④ idがtextbox1のテキストボックスの文字を"textboxの文字を変えました。"とjavascriptで書き換えなさい。
 
 
+<div class="box mt mb">
+  <a class="box_left" href="dom1.html">
+    <button class="btn bg-info">前の講義へ</button>
+  </a>
+  <a class="box_right" href="dom3.html">
+    <button class="btn bg-info">次の講義へ</button>
+  </a>
+</div>
+
+<footer>
+    <small>© 2021 k-sasaking.net</small>
+</footer>
 
