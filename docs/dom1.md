@@ -80,19 +80,17 @@ console.dir(document)
 
 「右クリック」 -> 「検証」 -> 「Console」タブ 
 
-<img src="img/console.png">
-
 画面の入力箇所に以下のコードを入力してEnterを押しましょう。
-
 
 ```
 console.dir(document)
 ```
 
+<img src="img/console.png">
 
 
 
-DOMは、いくつかの要素が階層上に入り組んで構成されています。
+**DOM**は、いくつかの**要素が階層上**に入り組んで構成されています。
 
 JavascriptのコードでこのDOMの情報を変更することで、Webブラウザで表示する内容を変更することができます。
 
