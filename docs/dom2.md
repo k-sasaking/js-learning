@@ -188,11 +188,11 @@ p.innerText = "pタグを変更しました。"
 
 ② h1タグのテキストを"h1タグの要素を変えました"と変更しなさい。
 
-② idがtextbox1のノードを取得してコンソールに出力しなさい。
+③ idがtextbox1のノードを取得してコンソールに出力しなさい。
 
-③ idがtextbox1のテキストボックスの文字をコンソールに出力しなさい。
+④ idがtextbox1のテキストボックスの文字をコンソールに出力しなさい。（応用）
 
-④ idがtextbox1のテキストボックスの文字を"textboxの文字を変えました。"とjavascriptで書き換えなさい。
+⑤ idがtextbox1のテキストボックスの文字を"textboxの文字を変えました。"とjavascriptで書き換えなさい。（応用）
 
 
 <div class="box mt mb">
