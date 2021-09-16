@@ -47,6 +47,8 @@ footer {
 
 ## 第2章: Webの仕組みとDOM
 
+## 解説動画
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QFCA-BfTreE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### HTMLにJavascriptを埋め込む
 ここからは、実際にHTMLファイルにJavascriptを埋め込んで、実行します。
